@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: url('../background-img/925860-black-dark-texture-monochrome.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #f1e5d0;
+}
+
+.pageTitle {
+    margin: 20px auto 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+.header h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+  }
+
+  .aboutMe {
+    background-color: rgb(57, 55, 55);
+    border-radius: 5%;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+    width: 50%;
+    opacity: .8;
+    padding: 5px;
+  }
+  
+  .aboutMe p {
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+  
+  .aboutMeImg {
+    height: auto;
+    width: 30%;
+    margin: 50px auto 0 auto;
+    border: solid 5px white;
+  }
+
+  .footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
