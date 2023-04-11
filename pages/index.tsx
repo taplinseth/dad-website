@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -10,18 +11,12 @@ const Home = () => {
         <meta name="description" content="Welcome to the artist's website" />
         <link rel="icon" href="/painting.png" />
       </Head>
-
-      <header className={styles.header}>
-        <h1>Mack Taplin</h1>
-        <Navigation />
-      </header>
+      <Navigation />
       <main className={styles.homeMain}>
-      <img src="portfolio/horses.jpeg" alt="horses" />
-      <div>Welcome to my studio.</div>
+        <img src="portfolio/horses.jpeg" alt="horses" />
+        <div>Welcome to my studio.</div>
       </main>
-      <footer className={styles.footer}>
-        <p>© Mack Taplin {new Date().getFullYear()}</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

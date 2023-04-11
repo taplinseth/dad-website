@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: url('../background-img/925860-black-dark-texture-monochrome.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #f1e5d0;
+}
+
+.contactContainer {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    margin:auto auto 30px auto;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    margin: 20px auto auto auto;
+    width: 35%;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #005fec;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #0044af;
+  }
+  
+  .contactInfo {
+    margin: 20px auto auto;
+    width: 45%;
+  }
+  
+  .contactInfo h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo p {
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    margin-bottom: 10px;
+  }
+  
+  .cta a {
+    background-color: #005fec;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .cta a:hover {
+    background-color: #0044af;
+  }

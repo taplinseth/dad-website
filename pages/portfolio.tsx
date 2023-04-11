@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Navigation from "../components/navigation";
-import styles from "../styles/Home.module.css";
+import Footer from "../components/footer";
+import styles from "../styles/Portfolio.module.css";
 
 function Portfolio() {
   return (
@@ -11,11 +12,7 @@ function Portfolio() {
         <meta name="description" content="Welcome to the artist's website" />
         <link rel="icon" href="/painting.png" />
       </Head>
-
-      <header className={styles.header}>
-        <h1>Mack Taplin</h1>
         <Navigation />
-      </header>
       <div className={styles.gallery}>
         <img src="portfolio/druid-wolf-photo-312.jpeg" alt="Image 1" />
         <img
@@ -39,9 +36,7 @@ function Portfolio() {
           alt="Image 6"
         />
       </div>
-      <footer className={styles.footer}>
-        <p>© Mack Taplin {new Date().getFullYear()}</p>
-      </footer>
+<Footer />
     </div>
   );
 }

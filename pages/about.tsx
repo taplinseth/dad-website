@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 import styles from "../styles/AboutMe.module.css"
 
 const About = () => {
@@ -10,11 +11,7 @@ const About = () => {
         <meta name="description" content="Welcome to the artist's website" />
         <link rel="icon" href="/painting.png" />
       </Head>
-
-      <header className={styles.header}>
-        <h1>Mack Taplin</h1>
         <Navigation />
-      </header>
         <h1 className={styles.pageTitle}>About The Artist</h1>
       <main className={styles.main}>
         <section className={styles.aboutMe}>
@@ -57,9 +54,7 @@ const About = () => {
         </section>
         <img className={styles.aboutMeImg} src="/mom-and-dad.jpeg" alt="mom-and-dad" />
       </main>
-      <footer className={styles.footer}>
-        <p>© Mack Taplin {new Date().getFullYear()}</p>
-      </footer>
+<Footer />
     </div>
   );
 };

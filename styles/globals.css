@@ -100,8 +100,18 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: url('../background-img/925860-black-dark-texture-monochrome.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #f1e5d0;
 }

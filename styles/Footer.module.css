@@ -1,0 +1,36 @@
+.footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .cta {
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .cta h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .cta p {
+    margin-bottom: 10px;
+  }
+  
+  .cta a {
+    background-color: #005fec;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .cta a:hover {
+    background-color: #0044af;
+  }
