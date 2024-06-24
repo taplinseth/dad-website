@@ -6,9 +6,6 @@ function Footer() {
     <footer className={styles.footer}>
 
     <div className={styles.cta}>
-    <h2>Ready to get started?</h2>
-    <p>Get in touch with us today to discuss your project.</p>
-    <a href="/contact">Contact Us Now</a>
   </div>
     <p>© Mack Taplin {new Date().getFullYear()}</p>
   </footer>
