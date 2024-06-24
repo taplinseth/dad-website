@@ -1,45 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .container {
-  background-color: rgb(66, 69, 66);
-  opacity: .9;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  /* background-color: rgb(66, 69, 66); */
+  /* opacity: .9; */
 }
+/* .navList li:hover {
+  color: rgb(100, 116, 94);
+} */
+
 
 .header h1 {
+  display: flex;
+  width: 50%;
   font-family: 'Dancing Script', cursive;
   font-size: 45px;
-  margin: 10px 0 10px 40px;
-  /* padding: 20px; */
+  margin: 10px auto 10px 300px;
+  justify-content: left;
 }
 
 .buttonContainer {
-    margin-top: -40px;
-    color: #f1e5d0;
-    display: flex;
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  color: #f1e5d0;
+  justify-content: right;
+  font-family: 'Quicksand', sans-serif;
   }
   
   .navList {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    margin: auto;
     max-width: 800px;
     padding: 20px;
   }
   
-  .navList li {
+  /* .navList li {
     background-color: rgb(51, 60, 52);
     padding: 10px;
     border-radius: 3px;
     width: 100px;
-  }
+  } */
   
-  .navList a {
-    margin-top: -35px;
+  .navList li div {
+    margin: auto;
     width: 100px;
     cursor: pointer;
     font-size: 18px;
@@ -51,7 +59,55 @@
   
   .navList a:hover {
     cursor: pointer;
-    box-shadow: 0 0 5px 0 #f1e5d0;
+    box-shadow: 0 0 50px 0 #f1e5d0;
+    color: rgb(100, 116, 94);
   }
   
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    /* background-color: rgb(51, 60, 52); */
+    border-radius: 3px;
+    padding: 10px 0;
+  }
+
+  .navList li:hover .dropdownMenu {
+    display: block;
+  }
   
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdownToggle:hover{
+    cursor: pointer;
+    position: relative;
+    color: rgb(100, 116, 94);
+  }
+
+  .dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 3px;
+    padding: 10px 0;
+    list-style: none;
+  }
+  
+  .dropdownMenu li a:hover {
+    color: rgb(100, 116, 94);
+  }
+  
+  .dropdownMenu li {
+    width: 100%;
+  }
+  
+  .dropdown:hover .dropdownMenu,
+  .dropdownToggle:hover + .dropdownMenu {
+    display: block;
+  }
+  
+

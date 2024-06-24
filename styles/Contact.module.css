@@ -7,7 +7,8 @@
   min-height: 100vh;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  background-image: url('../background-img/925860-black-dark-texture-monochrome.jpeg');
+  background-color: black;
+  /* background-image: url('../background-img/925860-black-dark-texture-monochrome.jpeg'); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
