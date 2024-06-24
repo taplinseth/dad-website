@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: url('../background-img/925860-black-dark-texture-monochrome.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #f1e5d0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 50px 100px 50px 100px;
+  }
+  
+  @media (max-width: 767px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: solid 5px white;
+  }
